@@ -37,5 +37,8 @@ const estiloInicial = StyleSheet.create({
         color: '#FFFFFF',
         fontWeight: 'bold'
     },
+    
 });
 export default estiloInicial;
+
+

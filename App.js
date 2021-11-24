@@ -9,6 +9,8 @@ import Detalhe from './src/views/Detalhe/Detalhe';
 
 const Stack =  createStackNavigator();
 
+
+
 export default function App() {
     return (
     <NavigationContainer>

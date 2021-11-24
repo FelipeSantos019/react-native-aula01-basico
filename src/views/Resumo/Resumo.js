@@ -16,6 +16,7 @@ function Resumo() {
                    <Text style={estiloResumo.botaoTexto}>Voltar</Text> 
                 </TouchableOpacity>
                 
+                
             </View>
         </View>
     )

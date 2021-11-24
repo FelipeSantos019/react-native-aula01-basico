@@ -7,6 +7,7 @@ const estiloResumo = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
     },
+    
     borda: {
         backgroundColor: '#1C1C1C',
         width: '80%',

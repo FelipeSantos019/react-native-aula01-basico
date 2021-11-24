@@ -35,6 +35,7 @@ const estiloDetalhe = StyleSheet.create({
     botaoTexto: {
         fontSize: 18,
         color: '#FFFFFF',
+        
         fontWeight:'bold'
     },
 });
