@@ -2,15 +2,7 @@ import React from 'react';
 import { Text, View, TouchableOpacity } from 'react-native';
 import estiloInicial from './estiloInicial';
 
-function Inicial({ navigation }) { 
-
-    const abrirResumo = () => {
-        navigation.navigate('Resumo')
-    }
-
-    const abrirDetalhe = () => {
-        navigation.navigate('Detalhe')
-    }
+function Inicial() { 
 
     return (
         <View style={estiloInicial.container}>
@@ -18,11 +10,11 @@ function Inicial({ navigation }) {
 
                 <Text style={estiloInicial.texto}>Inicial</Text>
 
-                <TouchableOpacity style={estiloInicial.botaoContainer} onPress={abrirResumo}> 
+                <TouchableOpacity style={estiloInicial.botaoContainer} > 
                     <Text style={estiloInicial.botaoTexto}>Resumo</Text> 
                 </TouchableOpacity>
 
-               <TouchableOpacity style={estiloInicial.botaoContainer} onPress={abrirDetalhe}>
+               <TouchableOpacity style={estiloInicial.botaoContainer} >
                     <Text style={estiloInicial.botaoTexto}>Detalhes</Text>
                 </TouchableOpacity>
 

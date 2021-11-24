@@ -3,21 +3,22 @@ import { StyleSheet } from 'react-native';
 const estiloInicial = StyleSheet.create({
     container: {
         flex: 1,
+        backgroundColor: '#000000',
         justifyContent: 'center',
         alignItems: 'center',
-    },
+    },   
     borda: {
-        backgroundColor: '#081a31',
+        backgroundColor: '#1C1C1C',
         width: '80%',
         height: '40%',
         borderRadius: 10,
-    },  
+    },
     texto: {
-        fontsize: 20,
+        fontSize: 20,
         color: '#FFFFFF',
         fontWeight: 'bold',
-        textAlign: 'center',
-        padding: 10
+        padding: 10,
+        textAlign: "center",
     },
     botaoContainer: {
         marginTop: 20,
@@ -27,18 +28,18 @@ const estiloInicial = StyleSheet.create({
         borderRadius: 5,
         height: 40,
         borderWidth: 2,
-        backgroundColor:'#14417b',
-        borderColor: '#e8f2e9',
+        borderColor: '#FFFFFF',
+        backgroundColor: '#000000',
         justifyContent: 'center',
         alignItems: 'center',
     },
     botaoTexto: {
         fontSize: 18,
         color: '#FFFFFF',
-        fontWeight: 'bold'
+        fontWeight:'bold'
     },
-    
 });
+
 export default estiloInicial;
 
 

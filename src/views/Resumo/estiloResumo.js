@@ -11,8 +11,16 @@ const estiloResumo = StyleSheet.create({
     borda: {
         backgroundColor: '#1C1C1C',
         width: '80%',
-        height: '45%',
+        height: '50%',
         borderRadius: 10,
+    },
+
+    texto02: {
+        fontSize: 20,
+        color: '#FFFFFF',
+        fontWeight: 'bold',
+        textAlign: "center",
+        padding: 10
     },
 
     texto01: {
