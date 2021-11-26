@@ -17,7 +17,6 @@ function Inicial() {
                <TouchableOpacity style={estiloInicial.botaoContainer} >
                     <Text style={estiloInicial.botaoTexto}>Detalhes</Text>
                 </TouchableOpacity>
-
             </View>
         </View>
     )
