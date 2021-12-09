@@ -3,6 +3,7 @@ import { Text, View, TouchableOpacity } from 'react-native';
 import estiloDetalhe from './estiloDetalhe'; 
 
 function Detalhe({ navigation }) { 
+    
     const voltar = () => { 
         navigation.goBack();    
 } 
@@ -18,12 +19,11 @@ function Detalhe({ navigation }) {
              “Disco Pigs”.</Text> 
 
             <Text style={estiloDetalhe.texto02}> Depois da peça, Murphy foi convidado a reinterpretar o papel para o filme que  
-            adaptou a obra  
-            original. Vale ressaltar que ele também escreveu e cantou a música “So New”, parte da trilha  
-            sonora do longa. Entretanto, foi só em Extermínio (2003), filme de Danny Boyle, que o ator  
-            passou a chamar a atenção dos grandes estúdios. Daí por diante, ele começou a ser o  
-            “queridinho de Christopher Nolan”, participando da maioria das produções do diretor, como por  
-            exemplo: A Trilogia Batman (2005-2012), A Origem (2010) e Dunkirk (2017).</Text>   
+            adaptou a obra original. Vale ressaltar que ele também escreveu e cantou a música “So New”, 
+parte da trilha  sonora do longa. Entretanto, foi só em Extermínio (2003), filme de Danny Boyle, que o 
+ator passou a chamar a atenção dos grandes estúdios. Daí por diante, ele começou a ser o  “queridinho de
+ Christopher Nolan”, participando da maioria das produções do diretor, como por  exemplo: A Trilogia 
+ Batman (2005-2012), A Origem (2010) e Dunkirk (2017).</Text>   
 
             <Text style={estiloDetalhe.texto03}>Sempre visto como um coadjuvante de luxo em Hollywood, 
              Cillian Murphy só conseguiu mudar o seu status em 2013, quando começou a interpretar Thomas  

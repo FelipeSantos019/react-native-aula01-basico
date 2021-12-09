@@ -8,7 +8,7 @@ function Inicial({ navigation }) {
        navigation.navigate('Resumo') 
         } 
 
-    const abrirDetalhe= () => { 
+    const abrirDetalhe = () => { 
         navigation.navigate('Detalhe') 
     } 
 
@@ -25,6 +25,7 @@ function Inicial({ navigation }) {
                <TouchableOpacity style={estiloInicial.botaoContainer} onPress={abrirDetalhe}> 
                     <Text style={estiloInicial.botaoTexto}>Detalhes</Text> 
                 </TouchableOpacity> 
+
             </View> 
         </View> 
     ) 

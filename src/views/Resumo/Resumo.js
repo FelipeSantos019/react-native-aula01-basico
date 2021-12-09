@@ -3,6 +3,7 @@ import { Text, View, TouchableOpacity } from 'react-native';
 import estiloResumo from './estiloResumo'; 
 
 function Resumo({ navigation }) { 
+
     const voltar = () => { 
         navigation.goBack();    
 } 
@@ -23,7 +24,8 @@ function Resumo({ navigation }) {
 
                 <TouchableOpacity style={estiloResumo.botaoContainer} onPress={voltar}> 
                    <Text style={estiloResumo.botaoTexto}>Voltar</Text>  
-                </TouchableOpacity>   
+                </TouchableOpacity>  
+ 
             </View> 
         </View> 
     ) 

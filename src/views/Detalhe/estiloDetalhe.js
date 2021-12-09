@@ -10,7 +10,7 @@ const estiloDetalhe = StyleSheet.create({
     borda: { 
         backgroundColor: '#1C1C1C', 
         width: '70%', 
-        height: '90%', 
+        height: '100%', 
        borderRadius: 10, 
     }, 
     texto01: { 
@@ -21,7 +21,7 @@ const estiloDetalhe = StyleSheet.create({
         padding: 10 
     }, 
     texto: { 
-        fontSize: 20, 
+        fontSize: 18, 
         color: '#FFFFFF', 
         fontWeight: 'bold', 
         marginLeft: 100, 
@@ -32,7 +32,7 @@ const estiloDetalhe = StyleSheet.create({
         textAlign: "justify", 
     }, 
     texto02: { 
-        fontSize: 20, 
+        fontSize: 18, 
         color: '#FFFFFF', 
         marginLeft: 100, 
         marginRight: 40, 
@@ -42,7 +42,7 @@ const estiloDetalhe = StyleSheet.create({
         textAlign: "justify", 
     }, 
     texto03: { 
-        fontSize: 20, 
+        fontSize: 18, 
         color: '#FFFFFF', 
         fontWeight: 'bold', 
         marginLeft: 100, 
@@ -52,7 +52,7 @@ const estiloDetalhe = StyleSheet.create({
         textAlign: "justify", 
     }, 
     texto04: { 
-        fontSize: 20, 
+        fontSize: 18, 
         color: '#FFFFFF', 
         fontWeight: 'bold', 
        textAlign: "center", 
@@ -72,7 +72,7 @@ const estiloDetalhe = StyleSheet.create({
         alignItems: 'center', 
     }, 
     botaoTexto: { 
-        fontSize: 18, 
+        fontSize: 15, 
         color: '#FFFFFF', 
         fontWeight:'bold' 
     }, 

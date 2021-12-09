@@ -10,7 +10,7 @@ const estiloResumo = StyleSheet.create({
     borda: { 
         backgroundColor: '#1C1C1C', 
         width: '80%', 
-        height: '50%', 
+        height: '80%', 
         borderRadius: 10, 
     }, 
     texto02: { 
@@ -42,12 +42,12 @@ const estiloResumo = StyleSheet.create({
         marginLeft: 40, 
         marginRight: 40, 
         borderRadius: 5, 
-        height: 40, 
+        height: 40,
+        alignItems: 'center',
         borderWidth: 2, 
         borderColor: '#FFFFFF', 
         backgroundColor: '#000000', 
-        justifyContent: 'center', 
-        alignItems: 'center', 
+        justifyContent: 'center' 
     }, 
     botaoTexto: { 
         fontSize: 18, 
