@@ -1,24 +1,32 @@
-import React from 'react';
-import { Text, View, TouchableOpacity } from 'react-native';
-import estiloInicial from './estiloInicial';
+import React from 'react'; 
+import { Text, View, TouchableOpacity } from 'react-native'; 
+import estiloInicial from './estiloInicial'; 
 
-function Inicial() { 
+function Inicial({ navigation }) { 
+    
+    const abrirResumo = () => { 
+       navigation.navigate('Resumo') 
+        } 
 
-    return (
-        <View style={estiloInicial.container}>
-            <View style={estiloInicial.borda}>
+    const abrirDetalhe= () => { 
+        navigation.navigate('Detalhe') 
+    } 
 
-                <Text style={estiloInicial.texto}>Inicial</Text>
+    return ( 
+        <View style={estiloInicial.container}> 
+            <View style={estiloInicial.borda}> 
 
-                <TouchableOpacity style={estiloInicial.botaoContainer} > 
-                    <Text style={estiloInicial.botaoTexto}>Resumo</Text> 
-                </TouchableOpacity>
+                <Text style={estiloInicial.texto}>Inicial</Text> 
 
-               <TouchableOpacity style={estiloInicial.botaoContainer} >
-                    <Text style={estiloInicial.botaoTexto}>Detalhes</Text>
-                </TouchableOpacity>
-            </View>
-        </View>
-    )
-}
-export default Inicial;
+                <TouchableOpacity style={estiloInicial.botaoContainer}  onPress={abrirResumo}> 
+                    <Text style={estiloInicial.botaoTexto}>Resumo</Text>  
+                </TouchableOpacity> 
+
+               <TouchableOpacity style={estiloInicial.botaoContainer} onPress={abrirDetalhe}> 
+                    <Text style={estiloInicial.botaoTexto}>Detalhes</Text> 
+                </TouchableOpacity> 
+            </View> 
+        </View> 
+    ) 
+} 
+export default Inicial; 
