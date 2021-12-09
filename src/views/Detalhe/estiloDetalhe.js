@@ -26,7 +26,6 @@ const estiloDetalhe = StyleSheet.create({
         fontWeight: 'bold', 
         marginLeft: 100, 
         marginRight: 40, 
-        padding: 10, 
         width: '80%', 
         height: '90%', 
         textAlign: "justify", 
